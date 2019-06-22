@@ -99,3 +99,25 @@
     0 0 90px rgb(46, 146, 43),
     0 0 100px rgb(46, 146, 43);
 }
+
+/* Sample 003 */
+
+.gradient-border {
+    border: 5px solid;
+    padding: 0px 50px 50px;
+    margin: 50px;
+    border-image-source: linear-gradient(to bottom,red, blueviolet);
+    border-image-slice: 0 1 0 1;
+}
+
+.gradient-border h1 {
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(to bottom, red, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+  
+.gradient-border p {
+    text-align: justify;
+}
