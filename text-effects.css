@@ -1,0 +1,101 @@
+/* Sample 001 */
+
+.bg001 {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.neon001 {
+   font-family: 'Londrina Outline', cursive; 
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.3em;
+    font-size: 65px;
+}
+
+
+.pink001 {
+    text-shadow: 
+    0 0 5px rgb(160, 54, 163),
+    0 0 10px rgb(160, 54, 163),
+    0 0 20px rgb(160, 54, 163),
+    0 0 40px rgb(160, 54, 163),
+    0 0 80px rgb(160, 54, 163),
+    0 0 90px rgb(160, 54, 163),
+    0 0 100px rgb(160, 54, 163) 
+}
+
+.blue001 {
+    text-shadow: 
+    0 0 5px  rgb(40, 87, 158),
+    0 0 10px  rgb(40, 87, 158),
+    0 0 20px  rgb(40, 87, 158),
+    0 0 40px  rgb(40, 87, 158),
+    0 0 80px  rgb(40, 87, 158),
+    0 0 90px rgb(40, 87, 158),
+    0 0 100px  rgb(40, 87, 158); 
+}
+
+.green001 {
+    text-shadow: 
+    0 0 5px rgb(46, 146, 43),
+    0 0 10px rgb(46, 146, 43),
+    0 0 20px rgb(46, 146, 43),
+    0 0 40px rgb(46, 146, 43),
+    0 0 80px rgb(46, 146, 43),
+    0 0 90px rgb(46, 146, 43),
+    0 0 100px rgb(46, 146, 43);
+}
+
+
+/* Sample 002 */
+
+.neon002 {
+    font-family: 'Codystar', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.3em;
+    font-size: 65px;
+}
+
+.bg002 {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pink002:hover {
+    text-shadow: 
+    0 0 5px rgb(160, 54, 163),
+    0 0 10px rgb(160, 54, 163),
+    0 0 20px rgb(160, 54, 163),
+    0 0 40px rgb(160, 54, 163),
+    0 0 80px rgb(160, 54, 163),
+    0 0 90px rgb(160, 54, 163),
+    0 0 100px rgb(160, 54, 163) 
+}
+
+.blue002:hover {
+    text-shadow: 
+    0 0 5px  rgb(40, 87, 158),
+    0 0 10px  rgb(40, 87, 158),
+    0 0 20px  rgb(40, 87, 158),
+    0 0 40px  rgb(40, 87, 158),
+    0 0 80px  rgb(40, 87, 158),
+    0 0 90px rgb(40, 87, 158),
+    0 0 100px  rgb(40, 87, 158); 
+}
+
+.green002:hover {
+    text-shadow: 
+    0 0 5px rgb(46, 146, 43),
+    0 0 10px rgb(46, 146, 43),
+    0 0 20px rgb(46, 146, 43),
+    0 0 40px rgb(46, 146, 43),
+    0 0 80px rgb(46, 146, 43),
+    0 0 90px rgb(46, 146, 43),
+    0 0 100px rgb(46, 146, 43);
+}

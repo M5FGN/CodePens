@@ -1,0 +1,27 @@
+
+/* Sample 001 */
+.fa-cart, .fa-favourite, .fa-submit {
+    height: 50px;
+    width: 200px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    color: rgb(29, 59, 59);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.fa-cart:hover, .fa-favourite:hover, .fa-submit:hover {
+    background-color: teal;
+}
+
+.fas, .far {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
