@@ -9,6 +9,10 @@ body {
     display: flex;
 }
 
+.fullwidth {
+    flex: 100%;
+}
+
 .column {
     flex: 50%;
 }
