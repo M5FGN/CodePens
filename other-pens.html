@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Other Pens Showcase</title>
+    <link rel="stylesheet" href="other-pens.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b9cf35b5bd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="script.js"></script>
+
+   
+</head>
+<body onload="commoncontent();">
+    <div class="page-title">Other Pens</div>
+
+    <div class="nav">
+        <ul>
+            <li class="nav-item"><a href="#charts">Charts</a></li>
+            <li class="nav-item"><a href="#shapes">Shapes and Animations</a></li>
+            <li class="nav-item"><a href="#misc">Misc</a></li>
+        </ul>
+    </div>
+
+    <div id="charts"></div>
+    <div class="page-title">Charts</div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="sample-number">001</div>
+            <div class="sample-title"></div>
+            <div class="sample">
+                    <div class="chart">
+                            <canvas id="piechart"></canvas>
+            
+                    </div>
+            </div>
+            <div class="source-code">Code Pen Link: <a href="https://codepen.io/m5fgn/pen/ZdKpLN" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+        <div class="column">
+            <div class="sample-number">002</div>
+            <div class="sample-title"></div>
+            <div class="chart">
+                <canvas id="barchart"></canvas>
+        </div>
+            <div class="source-code">Code Pen Link: <a href="https://codepen.io/m5fgn/pen/wLdqKp" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+    </div>
+
+    <div id="shapes"></div>
+    <div class="page-title">Shapes and Animations</div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="sample-number">001</div>
+            <div class="sample-title"></div>
+            <div class="sample">
+    
+            </div>
+            <div class="source-code">Code Pen Link: <a href="#" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+        <div class="column">
+            <div class="sample-number">002</div>
+            <div class="sample-title"></div>
+    
+            <div class="source-code">Code Pen Link: <a href="#" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+    </div>
+
+    <div id="misc"></div>
+    <div class="page-title">Misc Pens</div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="sample-number">001</div>
+            <div class="sample-title"></div>
+            <div class="sample">
+
+            </div>
+            <div class="source-code">Code Pen Link: <a href="#" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+        <div class="column">
+            <div class="sample-number">002</div>
+            <div class="sample-title"></div>
+               <div class="source-code">Code Pen Link: <a href="#" class="source-link" target="_blank">Click Here</a></div>
+        </div>
+    </div>
+
+    <div id="txt_links"></div>
+    <div id="txt_copyright" class="copyright"></div>
+
+
+</body>
+<script>
+var ctx = document.getElementById('piechart').getContext('2d');
+    var chart = new Chart(ctx, {
+    type: 'pie',
+    
+    data: {
+    labels: ['HTML', 'CSS', 'JavaScript', 'Other'],
+    datasets: [{
+        label: '% Time Spent Coding Today',
+        backgroundColor: ['rgb(234, 73, 181)', 'rgb(186, 124, 227)', 'rgb(49, 142, 206)', 'rgb(0, 198, 181)'],
+        borderColor: ['rgb(234, 73, 181)','rgb(186, 124, 227)', 'rgb(49, 142, 206)', 'rgb(0, 198, 181)'],
+        data: [39.36, 53.77, 3.25, 3.36 ]
+    }]
+    },
+    
+    options: {
+        title: {
+            display: true,
+            position: 'top',
+            fontSize: '16',
+            text: '% Time Spent Coding Today',
+            fontColor: 'rgb(56, 100, 129)',
+            padding: 20
+        },
+        legend: {
+                display: true,
+                position:'bottom',
+                labels: {
+                    fontColor: 'rgb(56, 100, 129)'
+            
+                }
+            }
+    }
+    });
+
+    var ctx = document.getElementById('barchart').getContext('2d');
+    var chart = new Chart(ctx, {
+    type: 'bar',
+    
+    data: {
+    labels: ['% Time Spent Coding Today'],
+    datasets: [{
+        label: 'HTML',
+        backgroundColor: ['rgb(234, 73, 181)'],
+        borderColor: ['rgb(234, 73, 181)'],
+        data: [39.36]
+    }, {
+        label: 'CSS',
+        backgroundColor: ['rgb(186, 124, 227)'],
+        borderColor: ['rgb(186, 124, 227)'],
+        data: [53.77]
+    }, {
+        label: 'JavaScript',
+        backgroundColor: ['rgb(49, 142, 206)'],
+        borderColor: ['rgb(49, 142, 206)'],
+        data: [3.25]
+    }, {
+        label: 'Other',
+        backgroundColor: ['rgb(0, 198, 181)'],
+        borderColor: ['rgb(0, 198, 181)'],
+        data: [3.36]
+    }]
+    },
+    
+    options: {
+        title: {
+            display: true,
+            position: 'top',
+            fontSize: '16',
+            text: '% Time Spent Coding Today',
+            fontColor: 'rgb(56, 100, 129)',
+            padding: 20
+        },
+        legend: {
+                display: true,
+                position:'bottom',
+                labels: {
+                    fontColor: 'rgb(56, 100, 129)'
+            
+                }
+            },
+            scales: {
+                xAxes: [{
+                    display: false,
+                }]
+            }
+    }
+    });
+    </script>
+</html>

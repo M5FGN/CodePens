@@ -1,0 +1,15 @@
+.chart {
+    width: 400px;
+}
+
+/* Sample 001 */
+#piechart {
+    border: 2px solid #aaa;
+}  
+
+
+/* Sample 002 */
+#barchart {
+    border: 2px solid #aaa;
+    margin: 50px;
+}  
