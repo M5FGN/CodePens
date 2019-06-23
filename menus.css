@@ -44,7 +44,7 @@
 .item:nth-child(5)>div {
     background-color: #d770ad;
 }
-a {
+.item a {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
