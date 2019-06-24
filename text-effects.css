@@ -105,7 +105,7 @@
 .gradient-border {
     border: 5px solid;
     padding: 0px 50px 50px;
-    margin: 50px;
+    margin: 0px;
     border-image-source: linear-gradient(to bottom,red, blueviolet);
     border-image-slice: 0 1 0 1;
 }
@@ -123,11 +123,11 @@
     text-align: justify;
 }
 
-/*Sample 004*/
+
+/*Sample 004 Master CSS*/
 
 .text004 {
     width: 400px;
-    margin: auto;
    padding: 0;
     background-color: #6b3c65;
     padding-top: 10px;
@@ -141,8 +141,26 @@
     text-align: center;
 }
 
+/*Sample 004a*/
 
-.text004-middle {
+.text004a {
+    width: 400px;
+    margin: auto;
+   padding: 0;
+    background-color: #6b3c65;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text004a li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text004a-middle {
     font-size: 20px;
     color: white;
     position: relative;
@@ -150,7 +168,7 @@
     padding: 10px 20px;
 }
 
-a.text004-middle:before{
+a.text004a-middle:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -163,12 +181,12 @@ a.text004-middle:before{
     transition: all 0.3s ease-in-out;
 }
 
-a.text004-middle:hover:before{
+a.text004a-middle:hover:before{
     visibility: visible;
     transform: scaleX(1);
 }
 
-.text004-left {
+.text004a-left {
     font-size: 20px;
     color: white;
     position: relative;
@@ -176,7 +194,7 @@ a.text004-middle:hover:before{
     padding: 10px 20px;
 }
 
-a.text004-left:before{
+a.text004a-left:before{
     content: "";
     position: absolute;
     width: 0;
@@ -188,12 +206,12 @@ a.text004-left:before{
     transition: all 0.3s ease-in-out;
 }
 
-a.text004-left:hover:before{
+a.text004a-left:hover:before{
     visibility: visible;
     width: 100%;
 }
 
-.text004-right {
+.text004a-right {
     font-size: 20px;
     color: white;
     position: relative;
@@ -201,7 +219,7 @@ a.text004-left:hover:before{
     padding: 10px 20px;
 }
 
-a.text004-right:before{
+a.text004a-right:before{
     content: "";
     position: absolute;
     width: 0;
@@ -213,7 +231,294 @@ a.text004-right:before{
     transition: all 0.3s ease-in-out;
 }
 
-a.text004-right:hover:before{
+a.text004a-right:hover:before{
     visibility: visible;
     width: 100%;
 }
+
+/*Sample 004b*/
+
+.text004b {
+    width: 400px;
+    margin: auto;
+   padding: 0;
+    background-color: #6b3c65;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text004b li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text004b-middle {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004b-middle:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: visible;
+    transform: scaleX(0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004b-middle:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.text004b-left {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004b-left:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004b-left:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+.text004b-right {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004b-right:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    background-color: #009786;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004b-right:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+/*Sample 004c*/
+
+.text004c {
+    width: 400px;
+    margin: auto;
+   padding: 0;
+    background-color: #6b3c65;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text004c li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text004c-middle {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004c-middle:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004c-middle:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.text004c-left {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004c-left:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004c-left:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+.text004c-right {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004c-right:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px;
+    bottom: 0;
+    right: 0;
+    background-color: #009786;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004c-right:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+/*Sample 004d*/
+
+.text004d {
+    width: 400px;
+    margin: auto;
+   padding: 0;
+    background-color: #6b3c65;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text004d li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text004d-middle {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004d-middle:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: visible;
+    transform: scaleX(1);
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004d-middle:hover:before{
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.text004d-left {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004d-left:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #009786;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004d-left:hover:before{
+    visibility: hidden;
+    width: 0%;
+}
+
+.text004d-right {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.text004d-right:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    background-color: #009786;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+a.text004d-right:hover:before{
+    visibility: hidden;
+    width: 0%;
+}
+
+
