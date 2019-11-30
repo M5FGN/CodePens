@@ -1,0 +1,57 @@
+.contact_card {
+    height: 480px;
+    width: 330px;
+    border: #808080 1px solid;
+    background-color: white;
+    box-shadow: 6px 6px silver;
+}
+
+.contact_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    border: #c0c0c0 3px solid;
+
+}
+
+.contact_name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    color: #808080;
+}
+
+.contact_bio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+    padding: 25px;
+    text-align: justify;
+    color: #808080;
+}
+
+.contact_social {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+.fab {
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #808080;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #1da1f2;
+}
