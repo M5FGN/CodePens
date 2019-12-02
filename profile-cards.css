@@ -1,3 +1,5 @@
+/* SAMPLE 001 */
+
 .contact_card {
     height: 480px;
     width: 330px;
@@ -54,4 +56,85 @@
 
 .fa-twitter-square:hover {
     color: #1da1f2;
+}
+
+/* SAMPLE 002 */
+
+h1 {
+    color: #a29bfe;
+    font-family: 'Coda', cursive;
+    font-size: 42px;
+    text-align: center;
+}
+.profile_card_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hov_profile_card {
+    height: 360px;
+    width: 200px;
+    margin: 5px;
+    border: 5px solid #a29bfe;
+}
+
+.hov_profile_card:hover {
+    background-color: #a29bfe;
+    margin: 5px;
+}
+
+.hov_img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 25px;
+    padding: 25px 0px;
+}
+
+.hov_name {
+    font-family: 'Coda', cursive;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.hov_bio {
+    position: relative;
+    top: -10px;
+    padding: 0px 10px;
+    font-family: 'Coda', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hov_social {
+    text-align: center;
+}
+
+.hov_fab, .hov_fas {
+    padding: 5px;
+    font-size: 30px;
+    color: #a29bfe;
+}
+
+.fas {
+    padding-left: 9px;
+}
+
+.hov_profile_card:hover .hov_fab {
+    color:white;
+}
+
+.hov_profile_card:hover .hov_fas {
+    color:white;
+}
+
+.hov_profile_card:hover .hov_name {
+    color:white;
+}
+
+.hov_profile_card:hover .hov_bio {
+    color: white;
 }
