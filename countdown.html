@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown | Codepen</title>
-</head>
-<body>
-    <h1>New Year Countdown</h1>
-    <div class="countdown">
-    
-        <div class="out_box"><div id="months"></div><div class="unit">Months</div></div>
-        <div class="out_box"><div id="weeks"></div><div class="unit">Weeks</div></div>
-        <div class="out_box"><div id="days"></div><div class="unit">Days</div></div>
-        <div class="out_box"><div id="hours"></div><div class="unit">Hours</div></div>
-        <div class="out_box"><div id="mins"></div><div class="unit"> Minutes</div></div>
-        <div class="out_box"><div id="secs"></div><div class="unit">Seconds</div></div>
-
-    </div>
 
     <style>
-
         h1 {
             text-align: center;
         }
 
         .countdown {
-           display: flex;
+            display: flex;
             flex-wrap: wrap;
-           justify-content: center;
+            justify-content: center;
         }
 
-        #months, #weeks, #days, #hours, #mins, #secs {
+        #months,
+        #weeks,
+        #days,
+        #hours,
+        #mins,
+        #secs {
             font-size: 45px;
             color: white;
             text-align: center;
@@ -54,23 +46,54 @@
         @media screen and (max-width: 750px) {
             body {
                 margin: 0 20%;
-                }
+            }
         }
 
         @media screen and (max-width: 600px) {
             body {
                 margin: 0 10%;
-                }
+            }
         }
-
     </style>
+    
+</head>
+
+<body>
+    <h1>New Year Countdown</h1>
+    <div class="countdown">
+
+        <div class="out_box">
+            <div id="months"></div>
+            <div class="unit">Months</div>
+        </div>
+        <div class="out_box">
+            <div id="weeks"></div>
+            <div class="unit">Weeks</div>
+        </div>
+        <div class="out_box">
+            <div id="days"></div>
+            <div class="unit">Days</div>
+        </div>
+        <div class="out_box">
+            <div id="hours"></div>
+            <div class="unit">Hours</div>
+        </div>
+        <div class="out_box">
+            <div id="mins"></div>
+            <div class="unit"> Minutes</div>
+        </div>
+        <div class="out_box">
+            <div id="secs"></div>
+            <div class="unit">Seconds</div>
+        </div>
+
+    </div>
 
     <script>
-
         let countdown_months = setInterval(diff_months, 1000);
 
-        function diff_months () {
-            let today = new Date ();
+        function diff_months() {
+            let today = new Date();
             let month = today.getMonth();
             let months_left = 11 - month;
             document.getElementById("months").innerHTML = months_left;
@@ -81,46 +104,46 @@
         let countdown_weeks = setInterval(diff_weeks, 1000);
 
         function diff_weeks() {
-            let today = new Date ();
+            let today = new Date();
             let day = today.getDate();
             let weeks_left;
 
             switch (today.getMonth()) {
                 case 0: //January
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 1: //February
-                    weeks_left = Math.floor((28 - day)/7);
+                    weeks_left = Math.floor((28 - day) / 7);
                     break;
                 case 2: //March
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 3: //April
-                    weeks_left = Math.floor((30 - day)/7);
+                    weeks_left = Math.floor((30 - day) / 7);
                     break;
                 case 4: //May
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 5: //June
-                    weeks_left = Math.floor((30 - day)/7);
+                    weeks_left = Math.floor((30 - day) / 7);
                     break;
                 case 6: //July
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 7: //August
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 8: //September
-                    weeks_left = Math.floor((30 - day)/7);
+                    weeks_left = Math.floor((30 - day) / 7);
                     break;
                 case 9: //October
-                    weeks_left = Math.floor((31 - day)/7);
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
                 case 10: //November
-                    weeks_left = Math.floor((30 - day)/7);
+                    weeks_left = Math.floor((30 - day) / 7);
                     break;
-                case 11://December
-                    weeks_left = Math.floor((31 - day)/7);
+                case 11: //December
+                    weeks_left = Math.floor((31 - day) / 7);
                     break;
             }
             document.getElementById("weeks").innerHTML = weeks_left;
@@ -131,86 +154,86 @@
         let countdown_days = setInterval(diff_days, 1000);
 
         function diff_days() {
-            let today = new Date ();
+            let today = new Date();
             let day = today.getDate();
             let days_left;
 
             switch (today.getMonth()) {
                 case 0: //January
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 1: //February
-                    days_left = Math.floor((28 - day)%7);
+                    days_left = Math.floor((28 - day) % 7);
                     break;
                 case 2: //March
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 3: //April
-                    days_left = Math.floor((30 - day)%7);
+                    days_left = Math.floor((30 - day) % 7);
                     break;
                 case 4: //May
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 5: //June
-                    days_left = Math.floor((30 - day)%7);
+                    days_left = Math.floor((30 - day) % 7);
                     break;
                 case 6: //July
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 7: //August
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 8: //September
-                    days_left = Math.floor((30 - day)%7);
+                    days_left = Math.floor((30 - day) % 7);
                     break;
                 case 9: //October
-                    days_left = Math.floor((31 - day)%7);
+                    days_left = Math.floor((31 - day) % 7);
                     break;
                 case 10: //November
-                    days_left = Math.floor((30 - day)%7);
+                    days_left = Math.floor((30 - day) % 7);
                     break;
-                case 11://December
-                    days_left = Math.floor((31 - day)%7);
+                case 11: //December
+                    days_left = Math.floor((31 - day) % 7);
                     break;
             }
-            document.getElementById("days").innerHTML = days_left; 
+            document.getElementById("days").innerHTML = days_left;
             return days_left;
         }
-               
+
 
         let countdown_hours = setInterval(diff_hours, 1000);
 
         function diff_hours() {
-            let today = new Date ();
+            let today = new Date();
             let hours = today.getHours();
             let hours_left = 23 - hours;
             document.getElementById("hours").innerHTML = hours_left;
             return hours_left;
         }
-       
+
 
         let countdown_mins = setInterval(diff_mins, 1000);
 
         function diff_mins() {
-            let today = new Date ();
+            let today = new Date();
             let mins = today.getMinutes();
             let mins_left = 59 - mins;
             document.getElementById("mins").innerHTML = mins_left;
             return mins_left;
         }
-        
+
 
         let countdown_secs = setInterval(diff_secs, 1000);
 
         function diff_secs() {
-            let today = new Date ();
+            let today = new Date();
             let secs = today.getSeconds();
             let secs_left = 59 - secs;
             document.getElementById("secs").innerHTML = secs_left;
             return secs_left;
         }
-
     </script>
-    
+
 </body>
+
 </html>
