@@ -15,7 +15,10 @@ These are small stand alone components which I have created to practice HTML, CS
 
 [Background Color Changer](https://github.com/M5FGN/codepens/tree/master/background_color_changer)</br>
 [Bill Split](https://github.com/M5FGN/codepens/tree/master/billsplit)</br>
+[Circles](https://github.com/M5FGN/CodePens/tree/master/circles)</br>
+[Color Slider](https://github.com/M5FGN/CodePens/tree/master/color_slider)</br>
 [Dice Throw](https://github.com/M5FGN/codepens/tree/master/dice_throw)</br>
+[Live Character Counter](https://github.com/M5FGN/CodePens/tree/master/live_counter)</br>
 [New Year Countdown](https://github.com/M5FGN/codepens/tree/master/new_year_countdown)</br>
 [VAT Calculator](https://github.com/M5FGN/codepens/tree/master/vat_calculator)</br>
 
