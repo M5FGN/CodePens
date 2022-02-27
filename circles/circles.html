@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="circles.css">
+    <script src="circles.js"></script>
+    <title>Area and Circumference of a Circle | CodePen</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Calulate the Area and the Circumference of a Circle</h1>
+
+        <div class="diagram">
+            <img src="https://firebasestorage.googleapis.com/v0/b/images-4783e.appspot.com/o/misc_github_images%2Fcircle.png?alt=media&token=a7fbf0ea-c73f-4228-aeab-2cc03e05be40" alt="Diagram of a Circle">
+        </div>
+
+        <form id="form">
+
+            <p>Enter either the Diameter or the Radius of the circle.</p>
+            <p></p><input id="in_diameter" onkeyup="diameter()" type="text" name="in_diameter" class="inputs"
+                placeholder="Enter Diameter (cm)">
+            <p></p><input id="in_radius" onkeyup="radius(); " type="text" name="in_radius" class="inputs"
+                placeholder="Enter Radius (cm)">
+            <div id="buttons">
+                <input type="button" value="Reset" onclick="btn_reset()"></input>
+            </div>
+            <p class="outputs" id="out_radius"></p>
+            <p class="outputs" id="out_diameter"></p>
+            <p class="outputs" id="out_circ"></p>
+            <p class="outputs" id="out_area"></p>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
