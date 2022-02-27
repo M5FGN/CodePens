@@ -7,7 +7,7 @@ Calculate the area and the circumference of a circle.
 ## MVP
 
 * Allow input of either diameter or radius
-* Calculate and displat the area and the circumference of the circle.
+* Calculate and display the area and the circumference of the circle.
 
 ## Technologies Used
 
