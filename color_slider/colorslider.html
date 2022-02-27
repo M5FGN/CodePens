@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorslider.css">
+    <script src="colorslider.js"></script>
+    <title>Color Slider | CodePen </title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Color Slider</h1>
+        <p>Move the sliders to change the page background color.</p>
+        <div class="sliders">
+            <div><input type="range" name="red_slider" id="red_slider" min="0" max="255" value="0" oninput="getRGB()"></div>
+            <div><input type="range" name="green_slider" id="green_slider" min="0" max="255" value="0" oninput="getRGB()"></div>
+            <div><input type="range" name="blue_slider" id="blue_slider" min="0" max="255" value="0" oninput="getRGB()"></div>
+        </div>
+        <p>RGB Value = </p>
+        <p id="rgb_value">0,0,0</p>
+    </div>
+
+</body>
+</html>
