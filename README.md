@@ -4,7 +4,6 @@
 
 These are small stand alone components which I have created to practice HTML, CSS and JavaScript. Through their creation I have either learned something new or they have helped to build my confidence. They can also be found on my [CodePen](https://codepen.io/m5fgn) space.
 
-
 ## Technologies Used
 
 * HTML
