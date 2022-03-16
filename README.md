@@ -20,5 +20,6 @@ These are small stand alone components which I have created to practice HTML, CS
 [Live Character Counter](https://github.com/M5FGN/CodePens/tree/master/live_counter)</br>
 [New Year Countdown](https://github.com/M5FGN/codepens/tree/master/new_year_countdown)</br>
 [VAT Calculator](https://github.com/M5FGN/codepens/tree/master/vat_calculator)</br>
+[Weight Convertor](https://github.com/M5FGN/CodePens/tree/master/weight_converter)</br>
 
 Disclaimer: As I continue to learn and expand my skills the code found in earlier CodePens may not reflect my current skill level.
