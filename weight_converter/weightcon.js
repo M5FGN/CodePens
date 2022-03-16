@@ -5,22 +5,16 @@ function calculation() {
 
     if (inputunit == "lbs" && outputunit == "lbs") {
         outputvalue = inputvalue;
-        document.getElementById("outputvalue").value = outputvalue;
-        return outputvalue;
     }
     else if(inputunit == "lbs" && outputunit == "kgs") {
         outputvalue = (inputvalue / 2.205).toFixed(3);
-        document.getElementById("outputvalue").value = outputvalue;
-        return outputvalue;
     }
     else if(inputunit == "kgs" && outputunit == "lbs") {
         outputvalue = (inputvalue * 2.205).toFixed(0);
-        document.getElementById("outputvalue").value = outputvalue;
-        return outputvalue;
     }
     else if(inputunit == "kgs" && outputunit == "kgs") {
-        let outputvalue = inputvalue;
-        document.getElementById("outputvalue").value = outputvalue;
-        return outputvalue;
+        outputvalue = inputvalue;
     }
+    document.getElementById("outputvalue").value = outputvalue;
+    return outputvalue;
 }
