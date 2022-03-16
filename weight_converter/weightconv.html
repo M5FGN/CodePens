@@ -15,7 +15,7 @@
         <form class = "container" action="">
             <!-- TODO - kg, lb -->
          <div id="input">
-                <input oninput="calculation()" class="field" type="number" name="inputvalue" id="inputvalue" min="1" max="1000"></br>
+                <input oninput="calculation()" class="field" type="number" name="inputvalue" id="inputvalue" min="1" max="1000" value="0"></br>
                 <select onchange="calculation()" name="inputunit" id="inputunit">
                     <option value="lbs">lbs</option>
                     <option value="kgs">kgs</option>
@@ -23,7 +23,7 @@
          </div>
             <p id="equals">=</p>
             <div id="output">
-                <input class="field" type="text" name="outputvalue" id="outputvalue"></br>
+                <input class="field" type="text" name="outputvalue" id="outputvalue" value="0"></br>
                 <select onchange="calculation()" name="outputunit" id="outputunit">
                     <option value="lbs">lbs</option>
                     <option value="kgs">kgs</option>
