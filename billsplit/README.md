@@ -17,6 +17,7 @@ Create a calculator which adds a tip and splits the bill between a number of din
 * JavaScript
 
 ## View Live
+
 [View live on CodePen](https://codepen.io/m5fgn/pen/gOGdeBm)
 
 ## Screenshots

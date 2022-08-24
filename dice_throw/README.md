@@ -17,6 +17,7 @@ Digitallly throw a dice.
 * JavaScript
 
 ## View Live
+
 [View live on CodePen](https://codepen.io/m5fgn/pen/poPoZGz)
 
 ## Screenshots

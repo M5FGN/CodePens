@@ -17,8 +17,9 @@ Adjust the color bars and see the background change to the resultant color.
 * JavaScript
 
 ## View Live
+
 [View live on CodePen](https://codepen.io/m5fgn/pen/QWGKKRM)
 
 ## Screenshots
 
-![Live Character Counter](https://firebasestorage.googleapis.com/v0/b/images-4783e.appspot.com/o/misc_github_images%2Fcolorslider.png?alt=media&token=54e340b8-0125-4642-95c5-964a4b283276)  
+![Live Character Counter](https://firebasestorage.googleapis.com/v0/b/images-4783e.appspot.com/o/misc_github_images%2Fcolorslider.png?alt=media&token=54e340b8-0125-4642-95c5-964a4b283276)

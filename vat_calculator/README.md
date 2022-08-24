@@ -17,6 +17,7 @@ Create a calculator which works out the VAT on a value input.
 * JavaScript
 
 ## View Live
+
 [View live on CodePen](https://codepen.io/m5fgn/pen/abLYjXw)
 
 ## Screenshots
